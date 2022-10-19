@@ -1,0 +1,225 @@
+.hero-primary {
+	background-color: $blue-full;
+	// height: 90vh;
+	height: auto;
+	// padding-bottom: 50px;
+	.navbar {
+		background-color: $blue-full;
+	}
+	.hero-wrapper {
+		position: relative; 
+		min-height: 300px;
+		background-color: $blue-full;
+		color: $white; 
+		.hero-content {
+			h1 {
+				font-size: 3.5rem;
+				letter-spacing: 1px;
+				line-height: 4.5rem;
+				 font-family: $font-family-graphik-bold;
+				 text-align: center;
+			}
+
+			.hero-search-form {
+				margin-top: 3.5rem;
+				margin-left: auto;
+				margin-right: auto; 
+				.input-group {
+					margin-bottom: 0;
+					padding: 0.3rem 0.7rem;
+					padding-left: 0.7rem;
+					padding-left: 1.4rem;
+					// width: 100%;
+					border-radius: 2rem;
+					background-color: $white;
+					.form-control {
+						border: none !important;
+						outline: none !important;
+						box-shadow: none;
+						&::placeholder {
+							color: #8795AA;
+						}
+					} 
+					.input-group-text {
+						background-color: transparent;
+						padding: 5px;
+						border: none;
+						button { 
+						   padding: 1rem;
+						   border-radius: 1.35rem;
+						   border: none !important;
+						   background-color: $green !important;
+						   font-size: 1.5rem;
+							font-weight: 300;
+							line-height: 1rem;
+							letter-spacing: 0.35px;
+						}
+					}
+				}
+			}
+		}
+		.hero-img {
+			img {
+				height: 500px;
+			}
+		}
+	}
+}
+
+.hero-secondary {
+	background-color: $blue-full;
+	// height: 90vh;
+ 
+	.hero-wrapper {
+		position: relative; 
+		min-height: 300px;
+		// background-color: $blue-full; 
+		.hero-content {
+			h1 {
+				font-size: 3.5rem;
+				letter-spacing: 1px;
+				line-height: 4.5rem;
+				 font-family: $font-family-graphik-bold; 
+			}
+
+			p {
+				font-size: 1.27rem;
+				font-family: $font-family-graphik-regular; 
+				letter-spacing: 0.35px;
+				margin-top: 0;
+				line-height: 2rem;
+			}
+
+			ul {
+				list-style-type: none;
+				margin-left: -1.875rem;
+				li {
+					font-size: 1.27rem;
+					font-family: $font-family-graphik-regular; 
+					letter-spacing: 0.35px;
+					margin-top: 0;
+					line-height: 2rem;
+					margin-bottom: .200rem;
+				}
+			}
+
+			.hero-search-form {
+				margin-top: 3.5rem;
+				margin-left: auto;
+				margin-right: auto; 
+				.input-group {
+					margin-bottom: 0;
+					padding: 0.3rem 0.7rem;
+					padding-left: 0.7rem;
+					padding-left: 1.4rem;
+					// width: 100%;
+					border-radius: 2rem;
+					background-color: $white;
+					.form-control {
+						border: none !important;
+						outline: none !important;
+						box-shadow: none;
+						&::placeholder {
+							color: #8795AA;
+						}
+					} 
+					.input-group-text {
+						background-color: transparent;
+						padding: 5px;
+						border: none;
+						button { 
+						   padding: 1rem;
+						   border-radius: 1.35rem;
+						   border: none !important;
+						   background-color: $green !important;
+						   font-size: 1.5rem;
+							font-weight: 300;
+							line-height: 1rem;
+							letter-spacing: 0.35px;
+							.btn-text {
+								padding: 0.5rem 0.8rem;
+								font-size: 1rem;
+								font-family: $font-family-graphik-bold;
+								line-height: 1rem;
+								letter-spacing: 0.35px;
+							}
+						}
+					}
+				}
+			}
+		}
+		.hero-img {
+			img {
+				height: 500px;
+			}
+		}
+	}
+}
+
+// 187 
+// .hero-primary {
+// 	position: relative;
+// }
+// .hero__line {
+//  position: absolute;
+// //  top: 0%;
+// bottom: 4%;
+// }
+// .floor__01 {
+// 	background-image: url(../images/hero_floor.svg);
+// 	height: 4.5rem !important;
+// 	position: absolute;
+// 	background-repeat: no-repeat;
+//   background-position-x: 0%;
+//   background-position-y: 0%;
+//   background-size: auto;
+// 	height: 4rem;
+// 	// bottom: -30%;
+// 	bottom: 0;
+// 	left: 21rem;
+// 	right: 22rem;
+// 	background-size: cover;
+// 	background-position-x: center;
+// 	background-position-y: top;
+// }
+// .floor__02 {
+// position: absolute;
+// height: 2rem;
+// bottom: 0rem;
+// left: 0rem;
+// right: 16rem;
+// background: red;
+// width: 100%;
+// }
+// .hero-wrapper {
+// 	position: relative;
+// }
+// .right-img {
+// 	background-image: url(../images/right__img.png);
+// 	background-size: 100%;
+// 	background-repeat: no-repeat;
+// 	width: 25rem;
+// 	height: 32rem;
+// 	position: absolute;
+// 	bottom: 0;
+// }
+
+
+.hero-wrapper_home {
+	background-image: url(../images/banner_land.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	height: 520px;
+	background-position-y: 100%;
+	background-color: white;
+}
+.hero-primary .hero-wrapper {
+	// background-color: white;
+}
+@include media(1600px){
+	.hero-wrapper {
+	//  background-position-y: 50px;
+
+	}
+}

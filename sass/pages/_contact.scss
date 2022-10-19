@@ -1,0 +1,55 @@
+.contact-support {
+  form {
+    input {
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #04294F;
+      background-color: #ffffff;
+      background-clip: padding-box;
+      border: 1px solid #8795AA;
+      height: calc(1.5em + 2.5rem + 2px);
+      padding: 1.25rem 1rem;
+      border-radius: 0.5rem;
+    }
+    textarea {
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #04294F;
+      background-color: #ffffff;
+      background-clip: padding-box;
+      border: 1px solid #8795AA;
+      padding: 1.25rem 1rem;
+      border-radius: 0.5rem;
+      text-transform: capitalize;
+    }
+  }
+}
+.contact__tittle  {
+font-size: 3rem;
+letter-spacing: 1px;
+margin-bottom: 1.25rem;
+line-height: 4rem;
+// font-weight: 900;
+font-family: $font-family-graphik-semibold;
+}
+.contact__description {
+  font-size: $default__font_size;
+}
+.form__btn {
+  button {
+    width: 100%;
+    background: linear-gradient(0.25turn, #38E8B0, #3BF7D1);
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1rem;
+    letter-spacing: 0.35px;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    &:hover {
+      background: linear-gradient(0.25turn, #37C597, #38E8B0);
+    }
+  }
+}

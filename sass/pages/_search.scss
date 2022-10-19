@@ -1,0 +1,223 @@
+.search-header {
+  padding-top: 3rem;
+  padding-bottom: 6rem;
+  input {
+    height: 5rem;
+    border-radius: 0.5rem !important;
+    border: none;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #04294F;
+    background-color: #ffffff;
+    box-shadow: 0px 0.5rem 0.75rem rgba(0,0,0,0.08),0px 0.25rem 3rem rgba(0,0,0,0.08);
+    padding: 1.25rem 1rem;
+    outline: none;
+  }
+  form {
+   position: relative;
+  }
+  .search__btn {
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translatey(-50%);
+    button {
+      border-radius: 0.5rem;
+      border: none;
+      background: linear-gradient(0.25turn, #38E8B0, #3BF7D1);
+      padding: 0 1.5rem;
+      line-height: 3.4rem;
+    }
+  }
+}
+
+
+// accordion 
+.search__content {
+  .accordion {
+    &_item {
+    }
+    .accordion-button:not(.collapsed) {
+      box-shadow: none !important;
+      background-color: transparent;
+      // border-bottom: 1px solid #000;
+  
+    }
+    .accordion-header {
+      border-bottom: 1px solid #000;
+      button {
+        font-size: 16px;
+        color: #00112c;
+        font-weight: 500;
+      }
+    }
+    .form-check {
+      display: flex;
+       align-items: center;
+       margin-bottom: 10px;
+      .form-check-input {
+        border: 2px solid #00112C;
+        height: 1.563rem;
+        width: 1.563rem;
+        box-sizing: border-box;
+        border-radius: 0.25rem;
+      }
+      .form-check-label {
+        margin: 0px 10px;
+        height: 100%;
+        font-size: 16px;
+      }
+    }
+    .form-check-input:checked {
+      background-color: #1AAFD0;
+      border: none;
+    }
+  }
+  .accordion-item {
+    border: 0px solid black;
+    // border-bottom: 1px solid #000;
+  
+  }
+  .form {
+    input {
+      height: 2.5rem;
+      border-radius: 0.25rem !important;
+      display: inline-block;
+      padding: 1.25rem 1rem;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #04294F;
+      background-color: #ffffff;
+      background-clip: padding-box;
+      border: 1px solid #8795AA;
+      outline: #38E8B0;
+    }
+  }
+}
+
+
+
+
+
+
+.result__layout {
+  line-height: 2.5rem;
+  border-bottom: 1px solid #B6BFCC;
+  padding-bottom: 15px;
+}
+.filter {
+  span {
+    width: 120px;
+  }
+}
+
+.domain_layout {
+  padding: 15px 0px;
+  border-bottom: 1px solid rgba(0,0,0,0.125);
+}
+
+.domain_name {
+  margin-bottom: 10px;
+  a {
+    text-decoration: none;
+    word-break: break-all;
+    margin-bottom: 0.5rem;
+    font-size: 1.125rem;
+    color: #179DBA;
+    font-weight: 900;
+    &:hover {
+      color: #12768c !important;
+      text-decoration: underline;
+    }
+  }
+}
+.offer__btn {
+  border-radius: 6px;
+  border: 2px solid #000 ;
+  width: max-content;
+  margin-left: auto;
+
+  a {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1rem;
+    letter-spacing: 0.35px;
+    text-decoration: none;
+    color: #000;
+    padding: 6px 18px;
+    line-height: 1.8;
+
+  }
+}
+.seller {
+  &__icon {
+    img {
+      width: 20px;
+    }
+  }
+  &__tittle {
+    font-size: $default__font_size;
+    font-weight: 400;
+  }
+}
+.pricing {
+  width: 120px;
+  line-height: 2.5;
+  background-image: url(../../images/prize_lable.svg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.price-label {
+  strong {
+    span {
+      font-family: $font-family-graphik-semibold;
+      letter-spacing: 0.35px;
+      font-size: $default__font_size;
+    }
+    
+  }
+  small {
+    font-size: 12px;
+    font-family: $font-family-graphik-regular;
+  }
+}
+.and span {
+  font-size: 12px;
+  text-transform: lowercase;
+  margin: 0px 5px;
+  letter-spacing: 0.35px;
+}
+.search__content {
+  .pagination {
+    .page-item {
+      background-color: transparent;
+    }
+    .page-link {
+      color: #179DBA ;
+      border: none;
+
+    }
+    .page-link:hover {
+      z-index: 2;
+      font-weight: 500;
+      color: #0F677A !important;
+      background-color: transparent;
+      border-color: #dee2e6;
+    }
+  }
+}
+// MEDIA 
+@include media(767px){
+  .offer__btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .seller {
+    margin-bottom: 10px;
+  }
+}
+
+

@@ -1,0 +1,37 @@
+.navbar {
+  padding: 2rem 0rem;
+  .navbar-nav {
+    .active {
+       // color: $white !important;
+    }
+    .nav-link {
+      // color: $white;
+      margin: 0 1rem;
+      font-family: $font-family-graphik-bold;
+      font-weight: 400;
+    }
+  }
+  .navbar-text {
+    // color: $white;
+    .border-white {
+      border: 2px solid $white;
+    }
+
+    .border-blue {
+      border: 2px solid $blue-full;
+    }
+    .nav-btn {
+      // color: $white;
+      // border: 2px solid $white;
+      padding: 0.75rem 1rem;
+      line-height: 1.5rem;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+    }
+  }
+  .dropdown-menu {
+    width: fit-content;
+  }
+}

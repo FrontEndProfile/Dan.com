@@ -1,0 +1,36 @@
+
+
+@import "_fonts";
+@import "_variables";
+ 
+
+ 
+@import "base";
+@import "header";
+@import "hero";
+@import "footer"; 
+
+// Blocks 
+
+// @import "blocks/base_block-styles";
+// @import "blocks/card";
+// @import "blocks/card-award";
+// @import "blocks/testimonial-carousel";
+// @import "blocks/form";
+// @import "blocks/content-box";
+// @import "blocks/faqs";
+@import "blocks/content-image";
+@import "blocks/features";
+@import "blocks/accordion";
+ 
+
+// Pages 
+
+// @import "pages/home";
+// @import "pages/contact";
+// @import "pages/request-demo";
+// @import "pages/team-about-us";
+// @import "pages/resources";
+// @import "pages/blog";
+@import "pages/search";
+@import "pages/contact";

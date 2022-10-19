@@ -1,0 +1,49 @@
+.content-image {
+	.section-content {
+		h2 {
+			font-family: $font-family-graphik-bold;
+			font-size: 3rem;
+			letter-spacing: 1px;
+			margin-bottom: 1.25rem;
+			line-height: 4rem; 
+		}
+		p {
+			font-size: 1.25rem;
+			font-weight: 400;
+			line-height: 2rem;
+			font-family: $font-family-graphik-regular;
+			margin-bottom: 2rem;
+		}
+		.vertical-icon-list {
+			padding-left: 3rem;
+            list-style: none;
+            li {
+            	position: relative;
+            	.li-icon {
+            		position: absolute;
+                    left: -3rem;
+            	}
+            	h4 {
+            		font-family: $font-family-graphik-semibold;
+            		font-size: 1.7rem;
+					letter-spacing: 0.5px;
+					line-height: 2rem;
+            	}
+            	p {
+            		font-size: 1rem;
+            		letter-spacing: 0.35px; 
+                    line-height: 1.5rem;
+            	}
+
+            	a {
+					color: $blue-light;
+		            text-decoration: none;
+					font-size: 1rem;
+					font-family: $font-family-graphik-medium;
+					line-height: 1.5rem;
+				}
+
+            }
+		}
+	}
+}
